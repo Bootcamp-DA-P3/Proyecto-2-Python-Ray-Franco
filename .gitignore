@@ -1,3 +1,9 @@
-data/*.csv
+# Datasets: no se suben al repositorio (buenas prácticas)
+data/
+*.csv
+*.parquet
+
+# Entorno y temporales
+venv/
 __pycache__/
 .ipynb_checkpoints/
